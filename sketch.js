@@ -3,8 +3,8 @@ let maskImg=null;
 let renderCounter=0;
 
 // change these three lines as appropiate
-let sourceFile = "input_1.jpg";
-let maskFile   = "mask_1.png";
+let sourceFile = "input_3.JPG";
+let maskFile   = "mask_3.png";
 let outputFile = "output_1.png";
 
 function preload() {
@@ -24,20 +24,34 @@ function setup () {
 }
 
 function draw () {
-  for(let i=0;i<4000;i++) {
+  for(let i=0;i<1920;i++) {
+    let j = renderCounter;
     let x = floor(random(sourceImg.width));
     let y = floor(random(sourceImg.height));
     let pix = sourceImg.get(x, y);
     let mask = maskImg.get(x, y);
-    fill(pix);
+    // fill(pix);
+   
     if(mask[0] > 128) {
       let pointSize = 10;
-      ellipse(x, y, pointSize, pointSize);
+
+      stroke (pix)
+      strokeWeight (height/ 500);
+      
+      if(pix[0] > 120){
+        line (x, y, x, y+height/10);
+      } else {
+      line (x, y, x, y-height/10);
     }
-    else {
+    // ellipse(x, y, pointSize, pointSize);
+  }
+  else {
+    noStroke ();
+     fill (0, pix[1], 0)
       let pointSize = 20;
-      rect(x, y, pointSize, pointSize);    
-    }
+      rect(x, y, pointSize, pointSize);   
+  }
+  
   }
   renderCounter = renderCounter + 1;
   if(renderCounter > 10) {
