@@ -461,7 +461,7 @@ function draw() {
 
     if (maskCenter !== null) {
       strokeWeight(4);
-      stroke(255, 255, 255, 127); 
+      stroke(255, 255, 255, 255); 
       noFill();
       let x = maskCenter[0];
       let y = maskCenter[1];
