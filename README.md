@@ -33,32 +33,37 @@ Predator's Eye is a lens that identifies native birds in images using AI and app
 
 
 ![Preview 1](preview1.jpg)
-When first coming up with ideas I tried using line, circles, rectangels and curves. I found that I went over the maximum amount of parameters. 
+1. my first bit of code was copied form Phoebe's example code
 
 ![Image 1](preview2.jpg)
-I simplified my idea so that I would only be using strokes; simple lines or curves. This was my first iteration, where some letters a still a bit wonky.
+2.Here I started experimenting with HSB values
 
 ![Image 2](preview3.jpg)
-I decided to change one of the lines to be more versatile so I could have 2 lines that could act as diagonals. I fixed up letters like K, M, W and U. I changed the colour scheme to convey more of the futuristic style I was going for. I also had to remove a parameter that controlled two small curves for letters like A and 2 image before this one as I thought it looked awful during interpolation. (example below)
+3. My initial code for creating 2 layers that I copied from the example code
+
 ![Image 3](preview4.jpg)
-(the two small curves/dots at the top of the letter)
+4. I created my own shape, a cross so that a cross hatching effect will be applied
 
 ![Image 4](preview5.jpg)
-My interpolation was also not looking great at the start. Small edits I made was shrinking the two curves down to 0 at 50% during the interpolation so that you wouldn't be able to see the jarring point at which they flip direction. I also made the vertical line shrink in the middle at 50% to add some flair. 
+5. Here I inversed the colours and upped the saturation of the bird.
 
 ![Image 5](preview6.jpg)
-Lastly I added 3 little stars to the exhibition mode as I saw that stars were common in Y2k fonts. 
-
+6. Same thing with a different image
 
 ![Image 6](preview7.jpg)
+7. I wanted the background to not be pixelated so the contast between the background and bird would be clearer
 
 ![Image 7](preview8.jpg)
+8. I decided to tint the background red to express a more dangerous vibe.
 
 ![Image 8](preview9.jpg)
+9. Here I copied another piece of example code to apply an image over the mask
 
 ![Image 9](preview10.jpg)
+10. Messing around with my own target and different colours
 
 ![Image 10](preview11.jpg)
+11. Decided to make the target white to stand out against the red background
 
 
 
