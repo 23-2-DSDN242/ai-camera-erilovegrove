@@ -3,8 +3,8 @@ let maskImg = null;
 let curLayer = 0;
 
 // change these three lines as appropriate
-let sourceFile = "input_5.jpg";
-let maskFile = "mask_5.png";
+let sourceFile = "input_8.jpg";
+let maskFile = "mask_8.png";
 let outputFile = "output_1.png";
 let maskCenter = null;
 let maskCenterSize = null;
@@ -177,7 +177,7 @@ function draw() {
     console.log("Done!");
     noLoop();
     // uncomment this to save the result
-    saveArtworkImage(outputFile);
+    // saveArtworkImage(outputFile);
   }
 }
 
