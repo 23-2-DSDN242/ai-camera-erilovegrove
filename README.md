@@ -9,13 +9,13 @@ Predator's Eye is a lens that identifies native birds in images using AI and app
 
 ### Process
 ![Preview 1](preview1.jpg)\
-1. my first bit of code was copied from Phoebe's example code here: 
+1. my first bit of code was copied from Phoebe's example code from a tutorial
 
 ![Image 1](preview2.jpg)\
-2.Here I started experimenting with HSB values
+2.Here I started experimenting with HSB values. reference: [HSB example](https://github.com/23-2-DSDN242/mddn-242-data-mapping-dribnet/blob/5bc33701c75acec7899d248b368b3e21315c2e51/sketch.js)
 
 ![Image 2](preview3.jpg)\
- 3. My initial code for creating 2 layers that I copied from the example code
+ 3. My initial code for creating 2 layers that I copied from the example code. reference: [layers example](https://github.com/23-2-DSDN242/mddn-242-data-mapping-dribnet/blob/32fecc77baeb2e1003ebf161a2750a58ba550bae/sketch.js)
 
 ![Image 3](preview4.jpg)\
  4. I created my own shape, a cross so that a cross hatching effect will be applied
