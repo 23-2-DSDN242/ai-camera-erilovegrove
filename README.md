@@ -22,13 +22,13 @@ give title
 Predator's Eye is a lens that identifies native birds in images using AI and applies a filter. The concept of the filter is an abstract idea of how a native bird might look to the dangers they are subject to, either to predators or climate change. I wanted to convey this idea by making the general image express danger or discomfort, and have the focus be on the native birds. I did this by tinting the image red and inversing the colours, increasing the saturation and creating a pixel effect made of small crosses on the birds as well as overlaying a target on top. 
 
 ### Process
-![Preview 1](preview1.jpg)
+![Preview 1](preview1.jpg)\
 1. my first bit of code was copied form Phoebe's example code
 
-![Image 1](preview2.jpg)
+![Image 1](preview2.jpg)\
 2.Here I started experimenting with HSB values
 
-![Image 2](preview3.jpg)
+![Image 2](preview3.jpg)\
  3. My initial code for creating 2 layers that I copied from the example code
 
 ![Image 3](preview4.jpg)
