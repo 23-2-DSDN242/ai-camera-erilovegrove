@@ -56,7 +56,7 @@ Predator's Eye is a lens that identifies native birds in images using AI and app
  11. Decided to make the target white to stand out against the red background
 
 ### AI mask outcomes
-<img src="input_4.jpg" alt="takaheimage" width="300"/><img src="mask_4.png" alt="takahemask" width="300"/>
+<img src="input_4.jpg" alt="takaheimage" width="300"/><img src="mask_4.png" alt="takahemask" width="300"/><img src="output_5.png" alt="takahefilter" width="300"/>
 
 
 update meta stuff
