@@ -31,32 +31,32 @@ Predator's Eye is a lens that identifies native birds in images using AI and app
 ![Image 2](preview3.jpg)\
  3. My initial code for creating 2 layers that I copied from the example code
 
-![Image 3](preview4.jpg)
+![Image 3](preview4.jpg)\
  4. I created my own shape, a cross so that a cross hatching effect will be applied
 
-![Image 4](preview5.jpg)
+![Image 4](preview5.jpg)\
  5. Here I inversed the colours and upped the saturation of the bird.
 
-![Image 5](preview6.jpg)
+![Image 5](preview6.jpg)\
  6. Same thing with a different image
 
-![Image 6](preview7.jpg)
+![Image 6](preview7.jpg)\
  7. I wanted the background to not be pixelated so the contast between the background and bird would be clearer
 
-![Image 7](preview8.jpg)
+![Image 7](preview8.jpg)\
  8. I decided to tint the background red to express a more dangerous vibe.
 
-![Image 8](preview9.jpg)
+![Image 8](preview9.jpg)\
  9. Here I copied another piece of example code to apply an image over the mask
 
-![Image 9](preview10.jpg)
+![Image 9](preview10.jpg)\
  10. Messing around with my own target and different colours
 
-![Image 10](preview11.jpg)
+![Image 10](preview11.jpg)\
  11. Decided to make the target white to stand out against the red background
 
 ### AI mask outcomes
-<img src="input_4.jpg" alt="takaheimage" width="500"/>
+<img src="input_4.jpg" alt="takaheimage" width="300"/><img src="mask_4.png" alt="takahemask" width="300"/>
 
 
 update meta stuff
