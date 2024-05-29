@@ -3,8 +3,8 @@ let maskImg = null;
 let curLayer = 0;
 
 // change these three lines as appropriate
-let sourceFile = "input_8.jpg";
-let maskFile = "mask_8.png";
+let sourceFile = "input_1.jpg";
+let maskFile = "mask_1.png";
 let outputFile = "output_1.png";
 let maskCenter = null;
 let maskCenterSize = null;
